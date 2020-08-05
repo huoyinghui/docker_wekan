@@ -165,7 +165,7 @@ services:
       #  - http://example.com
       #  - http://boards.example.com
       #  - http://192.168.1.100    <=== using at local LAN
-      - ROOT_URL=http://192.168.0.100  #   <=== using only at same laptop/desktop where Wekan is installed
+      - ROOT_URL=http://192.168.0.100:28080  #   <=== using only at same laptop/desktop where Wekan is installed
       #---------------------------------------------------------------
       # ==== EMAIL SETTINGS ====
       # Email settings are required in both MAIL_URL and Admin Panel,
